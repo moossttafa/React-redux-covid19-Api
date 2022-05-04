@@ -1,0 +1,129 @@
+.hero {
+  padding: 80px 0px;
+}
+
+.hero .cont_img {
+  height: 600px;
+  width: 90%;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .hero .cont_img{
+    display: none;
+  }
+}
+.hero .details {
+  padding: 50px 0;
+
+}
+.hero .cont_img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.hero .cont_img .small_img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 381px;
+  left: 78px;
+  z-index: 2;
+  top: -30px;
+  left: 333px;
+  z-index: 0;
+}
+
+.hero .cont_img .small_img img {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: rotate 28s linear infinite;
+  animation: rotation 28s linear infinite;
+}
+
+.hero .cont_img .big_img {
+  position: absolute;
+  /* z-index: 2; */
+  bottom: 230px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+}
+
+.hero .cont_img .big_img img {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: rotate 28s linear infinite;
+  animation: rotation 28s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.hero .info h1 {
+  font-family: Titillium Web, sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.hero .title{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.hero .title .data {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.hero .title .poster {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #e8505b;
+  margin-bottom: 5px;
+}
+
+.hero .item {
+  text-align: center;
+}
+
+.hero .item img {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.hero .item h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero .item p {
+  text-transform: capitalize;
+  text-align: center;
+}
