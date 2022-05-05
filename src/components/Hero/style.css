@@ -1,5 +1,5 @@
 .hero {
-  padding: 80px 0px;
+  padding: 50px 0px;
 }
 
 .hero .cont_img {
@@ -7,11 +7,7 @@
   width: 90%;
   position: relative;
 }
-@media (max-width: 991px) {
-  .hero .cont_img{
-    display: none;
-  }
-}
+
 .hero .details {
   padding: 50px 0;
 
@@ -92,7 +88,7 @@
 }
 .hero .title{
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 44 px;
 }
 .hero .title .data {
   margin-bottom: 5px;
@@ -126,4 +122,15 @@
 .hero .item p {
   text-transform: capitalize;
   text-align: center;
+}
+@media (max-width: 991px) {
+  .hero{
+    padding: 30px 0px;
+  }
+  .hero .details{
+    padding: 10px 0px;
+  }
+  .hero .cont_img{
+    display: none;
+  }
 }

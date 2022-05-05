@@ -1,0 +1,20 @@
+.copy {
+  background: #f7f2e2;
+}
+
+.copy .container {
+  border-top: 1px solid rgba(153, 153, 153, 0.38);
+}
+
+.copy h4 {
+  margin: 40px 0 20px;
+  font-size: 17px;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.copy h4 a {
+  color: #ff4f5b;
+  font-size: 17px;
+}

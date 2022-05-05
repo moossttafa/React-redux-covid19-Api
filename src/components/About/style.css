@@ -1,0 +1,72 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 70px;
+  background: rgba(245, 239, 220, 0.72);
+  border-top-left-radius: 98% 122px;
+  border-top-right-radius: 22% 103px;
+}
+.about .main_title span {
+  text-transform: capitalize;
+  padding: 3px 15px;
+  background: rgba(255, 79, 91, 0.09);
+  color: #e8505b;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.about .main_title h2 {
+  color: #222;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: Hind Siliguri, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-family: Roboto, sans-serif;
+  font-family: Titillium Web, sans-serif;
+}
+
+.about .main_title .cont_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .main_title .info {
+  padding: 100px 0 0;
+}
+
+.about .main_title .info .ques {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-family: Hind Siliguri, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-family: Roboto, sans-serif;
+  font-family: Titillium Web, sans-serif;
+}
+
+.about .main_title .info .lead {
+  font-size: 18px;
+  color: #777;
+}
+
+.about .main_title .info a {
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  color: #e8505b;
+}
+
+.about .main_title .info .lav_img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 100px;
+}
+
+.about .main_title .info .lav_img img {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: rotation 28s linear infinite;
+  animation: rotation 28s linear infinite;
+}

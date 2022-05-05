@@ -1,0 +1,41 @@
+.countries {
+  padding-top: 80px;
+}
+
+.countries .title h2 {
+  text-align: center;
+}
+
+.countries .countery {
+  background: #fff;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 6px 4px 17px -4px rgba(136, 136, 136, 0.24);
+  position: relative;
+  bottom: -150px;
+}
+
+.countries .countery .item {
+  padding: 5px 0px;
+  position: relative;
+}
+
+.countries .countery .item img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+.countries .countery .item h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.countries .countery .item p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,136 @@
+footer {
+  position: relative;
+  padding: 100px 0 100px;
+  background: #f7f2e2;
+  border-top-left-radius: 98% 122px;
+  border-top-right-radius: 22% 103px;
+}
+
+footer .item-one,
+footer .item-two,
+footer .item-three,
+footer .item-four {
+  position: relative;
+  z-index: 2;
+  margin: 20px 0;
+}
+
+footer .item-one h2,
+footer .item-two h2,
+footer .item-three h2,
+footer .item-four h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .item-one h2 img,
+footer .item-two h2 img,
+footer .item-three h2 img,
+footer .item-four h2 img {
+  width: 45px;
+  height: 45px;
+}
+
+footer .item-one .lead,
+footer .item-two .lead,
+footer .item-three .lead,
+footer .item-four .lead {
+  color: #777;
+  text-transform: capitalize;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+footer .item-two h4,
+footer .item-three h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .item-two ul,
+footer .item-three ul {
+  padding: 0;
+}
+
+footer .item-two ul li,
+footer .item-three ul li {
+  margin: 15px 0;
+  color: #777;
+  font-size: 16px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .item-four h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .item-four p {
+  color: #777;
+  text-transform: capitalize;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+footer .item-four p a {
+  text-decoration: none;
+  color: #777;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+footer .item-four .social {
+  margin-top: 30px;
+}
+
+footer .item-four .social a {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align-last: center;
+  line-height: 40px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+footer .item-four .social a i {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #e8505b;
+  background: #f1e3df;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer .overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f7f2e2;
+}
+
+footer .overlay .one {
+  position: absolute;
+  bottom: 60px;
+  z-index: 0;
+  right: 35%;
+  opacity: 0.1;
+}
+
+footer .overlay .one img {
+  width: 200px;
+  height: 200px;
+  animation: rotation 20s linear infinite;
+}
