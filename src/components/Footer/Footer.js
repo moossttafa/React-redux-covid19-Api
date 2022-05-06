@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="container">
+      <div className="container" id="contact">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-4">
             <div className="item-one">

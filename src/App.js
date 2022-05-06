@@ -5,6 +5,7 @@ import {
   Route, 
 } from "react-router-dom";
 import './App.css';
+import About from './components/About/About';
 import Copy from './components/Copy/Copy';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -16,7 +17,7 @@ function App() {
     <Router>
     <Header />
     <Routes>
-      <Route path="/" exact element={<Home />} />     
+      <Route path="/" exact element={<Home />} />    
     </Routes>
     <Footer />
     <Copy />

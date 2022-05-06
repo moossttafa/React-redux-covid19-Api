@@ -13,3 +13,16 @@ export const fetchCovid = () => async (dispatch) => {
   console.log("error",err);
  } 
 };
+
+export const fetchCovidEgypt = () => async (dispatch) => {
+  try{
+    const response = await axios.get('https://coronavirus-19-api.herokuapp.com/countries/egypt')
+    console.log("response",response.data);
+    dispatch({
+      type : Types.FETCH_COVID_EGYPT,
+      payload : response.data
+    });
+  }catch(err){
+   console.log("error",err);
+  } 
+ };

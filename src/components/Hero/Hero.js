@@ -8,60 +8,23 @@ import Imge6 from "../Img/virus.png"
 // import Imge4 from "../Img/police-asking-to-stay-home-to-avoid-coronavirus.png"
 import "./style.css"
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchCovid } from '../../Redux/Actions/CovidActions';
+import { fetchCovidEgypt } from '../../Redux/Actions/CovidActions';
 
 const Hero = () => {
-  const covid = useSelector((state) => state.allCovide.covide);
-  const dispatch = useDispatch(); 
-  // const cases = covid.cases
-  // const  deaths  = covid.deaths
-  // const recovered = covid.recovered
-  // console.log("covid",covid);
+  const covid = useSelector((state) => state.allCovide.covidEgypt);
+  const dispatch = useDispatch();  
  const {cases,deaths,recovered} = covid;
   useEffect(() => { 
-    dispatch(fetchCovid());
+    dispatch(fetchCovidEgypt());
   }, [dispatch])
   
+  const current = new Date();
+  const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 
   return (
     <div className='hero'>
       <div className="container">
-        <div className="row"> 
-          <div className="col-lg-6">
-            <div className='details'>
-            <div className="info">
-              <h1>Save yourself save the world</h1>
-            </div>
-            <div className="title">
-              <div className="data"> Aug 29, 2020 </div>
-              <div className="poster"> Today's new stats </div>
-              <p>the whole world</p>
-            </div>
-            <div className="row"> 
-            <div className="col">
-            <div className="item">
-            <img src={Imge2} alt="pic"/> 
-                    <h2> {cases} </h2> 
-                    <p>new cases</p>
-                </div>
-              </div>
-              <div className="col">
-                <div className="item">
-                  <img src={Imge5} alt="pic"/>
-                    <h2> {recovered} </h2>
-                    <p> recover</p>
-                </div>
-              </div>
-              <div className="col">
-              <div className="item">
-              <img src={Imge6} alt="pic"/>
-              <h2> {deaths} </h2>
-              <p> fatalities </p>
-               </div>
-              </div> 
-            </div> 
-            </div>
-          </div>
+        <div className="row">  
           <div className="col-lg-6">
             <div className="cont_img">
               <img src={Imge} alt="pic"/>
@@ -73,6 +36,41 @@ const Hero = () => {
               </div>
             </div> 
           </div> 
+          <div className="col-lg-6">
+          <div className='details'>
+          <div className="info">
+            <h1>انقذ نفسك انقذ العالم </h1>
+          </div>
+          <div className="title">
+            <div className="data"> {date} </div>
+            <div className="poster"> احصائيات المدن  </div>
+            <p>الاعداد فى مصر</p>
+          </div>
+          <div className="row"> 
+          <div className="col">
+          <div className="item">
+          <img src={Imge2} alt="pic"/> 
+                  <h2> {cases} </h2> 
+                  <p>new cases</p>
+              </div>
+            </div>
+            <div className="col">
+              <div className="item">
+                <img src={Imge5} alt="pic"/>
+                  <h2> {recovered} </h2>
+                  <p> recover</p>
+              </div>
+            </div>
+            <div className="col">
+            <div className="item">
+            <img src={Imge6} alt="pic"/>
+            <h2> {deaths} </h2>
+            <p> fatalities </p>
+             </div>
+            </div> 
+          </div> 
+          </div>
+        </div>
         </div>
       </div> 
     </div>

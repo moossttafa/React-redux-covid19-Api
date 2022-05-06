@@ -28,6 +28,14 @@
   left: 50%;
   margin-left: -35px;
 }
+@media(max-width : 567px){
+  .countries .countery .item img {
+    width: 70px;
+    height: 70px;
+    position: revert; 
+    margin-left: 0;
+  }
+}
 
 .countries .countery .item h2 {
   text-align: center;

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-// import {FaShippingFast} from 'react-icons/fa';
+import { Link } from 'react-router-dom'; 
 import { FaBars , FaTimes } from 'react-icons/fa';
 import Logo from "../Img/corona-virus.png";
 import "./style.css"
@@ -47,24 +46,34 @@ window.addEventListener("scroll" , changeBackground);
             <ul className='nav-menu' >
               <li className="nav-item ">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                Countries stats
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to='/shapping' className="nav-links" onClick={closeMobileMenu}>
-                  About Covid 19
+                  الرائيسية
                 </Link>
               </li> 
               <li className="nav-item">
-                <Link to='/contactus' className="nav-links" onClick={closeMobileMenu}>
-                  Contact US
-                </Link>
+                <a href="#about" className="nav-links" onClick={closeMobileMenu}>
+                حول
+                </a>
               </li>
+              <li className="nav-item">
+                <a href='#worldState' className="nav-links" onClick={closeMobileMenu}>
+                  الاحصائيات
+                </a>
+              </li> 
+              <li className="nav-item">
+                <a href="#Symptoms" className="nav-links" onClick={closeMobileMenu}>
+                الاعراض
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href='#Instructions' className="nav-links" onClick={closeMobileMenu}>
+                  الوقاية
+                </a>
+              </li>
+              <li className="nav-item">
+              <a href='#contact' className="nav-links" onClick={closeMobileMenu}>
+                التواصل
+              </a>
+            </li>
             </ul>
           </div>
         </div>

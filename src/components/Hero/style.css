@@ -82,12 +82,12 @@
   text-transform: capitalize;
   font-weight: 700;
   font-size: 56px;
-  text-align: left;
+  text-align: right;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 .hero .title{
-  text-align: left;
+  text-align: right;
   margin-bottom: 44 px;
 }
 .hero .title .data {

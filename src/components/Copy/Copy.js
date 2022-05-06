@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react' 
 import "./style.css"
 
 const Copy = () => {
@@ -8,7 +7,7 @@ const Copy = () => {
       <div className="container">
         <h4 className="text-center">
           جميع الحقوق محفوظة
-          <Link to="/">Mostafa Hamed</Link>
+          <a href="https://www.linkedin.com/in/mostafa-hamed-41ab06196/">Mostafa Hamed</a>
           © 2020
         </h4>
       </div>

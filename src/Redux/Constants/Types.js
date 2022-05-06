@@ -1,3 +1,4 @@
 export const Types = {
   FETCH_COVID : "FETCH_COVID",  
+  FETCH_COVID_EGYPT : "FETCH_COVID_EGYPT",
 }

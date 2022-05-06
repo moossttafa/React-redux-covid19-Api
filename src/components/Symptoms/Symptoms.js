@@ -8,7 +8,7 @@ const Symptoms = () => {
   const style ={color : "#FFF" , background : "#40cd79"}
 
   return (
-    <div className="symptoms">
+    <div className="symptoms" id="Symptoms">
       <div className="container">
         <div className="row"> 
           <div className="col-lg-6">

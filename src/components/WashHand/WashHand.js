@@ -5,10 +5,10 @@ import "./style.css"
 const WashHand = () => {
   console.log(data);
   return (
-    <div class="wash">
-      <div class="container">
-        <div class="main_title text-center">
-          <span class="alert"> اغسل يديك </span>
+    <div className="wash">
+      <div className="container">
+        <div className="main_title text-center">
+          <span className="alert"> اغسل يديك </span>
           <h2> صابون على اليد</h2>
         </div>
         <div className="row">

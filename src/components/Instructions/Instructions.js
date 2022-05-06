@@ -7,7 +7,7 @@ import "./style.css"
 
 const Instructions = () => {
   return (
-    <div className="protects">
+    <div className="protects" id='Instructions'>
       <div className="container">
         <div className="lavander">
           <img src={Img} alt="pic" />

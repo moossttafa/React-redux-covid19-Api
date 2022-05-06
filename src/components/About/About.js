@@ -6,7 +6,7 @@ import WorldState from '../worldStats/WorldState';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='container'>
         <div className="main_title  text-center">
           <span> عن الفيروس  </span>
